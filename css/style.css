@@ -115,8 +115,7 @@ img {
 
 /* Brand Logo Image */
 .brand-logo {
-  width: 45px;
-  height: 45px;
+  height: 87px;
   object-fit: contain;
   border-radius: var(--radius-sm);
 }
@@ -169,7 +168,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Overlay hitam ringan */
+  background: rgb(0 0 0 / 77%);
   z-index: 1;
 }
 
