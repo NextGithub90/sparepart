@@ -742,6 +742,31 @@ section {
   transform: scale(1.1);
 }
 
+/* Text Brand Label - Simple Plain Style */
+.phone-brand-card.text-brand {
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  min-height: 80px;
+}
+
+.phone-brand-card.text-brand:hover {
+  background: white;
+  border-color: var(--primary-color);
+}
+
+.brand-text-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.phone-brand-card.text-brand:hover .brand-text-label {
+  color: var(--primary-color);
+}
+
 /* Gallery Section */
 .gallery-section {
   background: var(--bg-white);
